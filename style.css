@@ -1,7 +1,7 @@
 body{
     font-size: 15pt;
     font-family: sans-serif;
-    background: #261C3E;
+    background: #0D1117;
 }
 .container{
     top: 50%;
@@ -37,6 +37,7 @@ select{
 label{
     opacity: 0;
     white-space: none;
+    color:#fff;
 }
 button{
      padding: 9px;
