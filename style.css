@@ -78,6 +78,9 @@ button{
         width: 250px;
         height: 150px;
     }
+    textarea:focus{
+        margin-top:50px;
+    }
     button{
         width: 250px;
         margin-left: 20px;
@@ -93,6 +96,9 @@ button{
     textarea{
         width: 250px;
         height: 150px;
+    }
+    textarea:focus{
+        margin-top:50px;
     }
     button{
         width: 250px;
