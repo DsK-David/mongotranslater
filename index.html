@@ -6,26 +6,26 @@
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MONGO-TRANSLATER</title>
+    <title>MONGO-TRANSLATOR</title>
 </head>
 <body>
     <section class="container">
         <div>
-            <textarea class="from-text" id="from-text" placeholder="Coloque o texto"></textarea>
-            <textarea class="to-text" id="to-text" placeholder="Tradução" readonly disabled></textarea>
-            <br>
-            <label>De&rightarrow;</label>
-            <select name="" id="">
-    
+            <textarea class="from-text" id="from-text" placeholder="Coloque o texto" aria-label="Campo de entrada de texto"></textarea>
+            <textarea class="to-text" id="to-text" placeholder="Tradução" readonly disabled aria-label="Campo de saída de texto"></textarea>
+
+            <label for="de-select">De&rightarrow;</label>
+            <select name="de-select" id="de-select" aria-label="Seletor de idioma de origem">
+                <!-- Opções de idioma -->
             </select>
-            <label>Para&rightarrow;</label>
-            <select name="" id="">
-        
-        
+
+            <label for="para-select">Para&rightarrow;</label>
+            <select name="para-select" id="para-select" aria-label="Seletor de idioma de destino">
+                <!-- Opções de idioma -->
             </select>
         </div>
         <br>
-       <button>Traduzir</button>
+        <button class="translate-button">Traduzir</button>
     </section>
 </body>
 <script src="main.js"></script>
