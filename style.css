@@ -1,110 +1,122 @@
-body{
+body {
     font-size: 15pt;
     font-family: sans-serif;
     background: #0D1117;
-}
-.container{
+    color: #fff;
+  }
+  
+  .container {
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
     position: absolute;
-    width:600px ;
+    width: 600px;
     border-radius: 7px;
     padding: 30px;
-}
-textarea{
-height: 250px;
-width: 250px;
-border: none;
-outline: none;
-font-size: 18px;
-border-radius: 5px;
-padding: 10px 15px;
-resize: none;
-
-}
-
-.to-text::placeholder{
-color: #222;
-}
-select{
+    background: #1f242a;
+  }
+  
+  textarea {
+    height: 250px;
+    width: 250px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    border-radius: 5px;
+    padding: 10px 15px;
+    resize: none;
+    background: #222;
+    color: #fff;
+  }
+  
+  .to-text::placeholder {
+    color: #ccc;
+  }
+  
+  select {
     border: none;
     outline: none;
     background: #777;
     font-size: 18px;
     width: 200px;
     color: #444;
-}
-label{
+  }
+  
+  label {
     opacity: 0;
     white-space: none;
-    color:#fff;
-}
-button{
-     padding: 9px;
-     outline: none;
-     border: 1px solid transparent;
-     width: 500px;
-     margin-top: 10px;
-     margin-left: 30px;
-     background: #7B55D3;
-     border-radius: 10px;
-     color: #ccc;
-}
-@media (max-width:320px){
-    .container{
-        width: 300px;
+    color: #fff;
+  }
+  
+  button {
+    padding: 9px;
+    outline: none;
+    border: 1px solid transparent;
+    width: 500px;
+    margin-top: 10px;
+    margin-left: 30px;
+    background: #7B55D3;
+    border-radius: 10px;
+    color: #ccc;
+  }
+  
+  @media (max-width: 320px) {
+    .container {
+      width: 300px;
     }
-    textarea{
-        width: 250px;
-        height: 150px;
+    textarea {
+      width: 250px;
+      height: 150px;
     }
-    textarea:focus{
-        margin-top:90px;
+    textarea:focus {
+      margin-top: 90px;
     }
-    button{
-        width: 250px;
-        margin-left: 20px;
+    button {
+      width: 250px;
+      margin-left: 20px;
     }
-    label{
-        opacity: 1;
+    label {
+      opacity: 1;
     }
-}
-@media (max-width:375px){
-    .container{
-        width: 300px;
+  }
+  
+  @media (max-width: 375px) {
+    .container {
+      width: 300px;
     }
-    textarea{
-        width: 250px;
-        height: 150px;
+    textarea {
+      width: 250px;
+      height: 150px;
     }
-    textarea:focus{
-        margin-top:90px;
+    textarea:focus {
+      margin-top: 90px;
     }
-    button{
-        width: 250px;
-        margin-left: 20px;
+    button {
+      width: 250px;
+      margin-left: 20px;
     }
-    label{
-        opacity: 1;
+    label {
+      opacity: 1;
     }
-}
-@media (max-width:425px){
-    .container{
-        width: 300px;
+  }
+  
+  @media (max-width: 425px) {
+    .container {
+      width: 300px;
     }
-    textarea{
-        width: 250px;
-        height: 150px;
+    textarea {
+      width: 250px;
+      height: 150px;
     }
-    textarea:focus{
-        margin-top:90px;
+    textarea:focus {
+      margin-top: 90px;
     }
-    button{
-        width: 250px;
-        margin-left: 20px;
+    button {
+      width: 250px;
+      margin-left: 20px;
     }
-    label{
-        opacity: 1;
+    label {
+      opacity: 1;
     }
-}
+  }
+  
